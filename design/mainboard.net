@@ -1,0 +1,368 @@
+# EESchema Netlist Version 1.1 created  12/10/2012 18:30:40
+(
+ ( /5077A054 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 ? )
+  (    2 /VSS_OUT )
+ )
+ ( /5077A050 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 /RPM0- )
+  (    2 /RPM0+ )
+ )
+ ( /5077A04C $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 +12V_SWITCHED )
+ )
+ ( /5073CAB2 $noname  U3 74LS90_FREEEMS {Lib=74LS90_FREEEMS}
+  (    1 N-000023 )
+  (    2 GND )
+  (    3 GND )
+  (    5 +5V_SWITCHED )
+  (    6 GND )
+  (    7 GND )
+  (    8 ? )
+  (    9 ? )
+  (   10 GND )
+  (   11 N-000009 )
+  (   12 /BASIC_OUT )
+  (   14 N-000009 )
+ )
+ ( /5072A2D1 $noname  R3 R {Lib=R}
+  (    1 /VSS_OUT )
+  (    2 GND )
+ )
+ ( /507294B4 D3  D2 1N5919BG {Lib=ZENER}
+  (    1 GND )
+  (    2 +5V_SWITCHED )
+ )
+ ( /507294B3 P-TO263-5-1  U1 TLE4275 {Lib=TLE4275}
+  (    1 +12V_SWITCHED )
+  (    3 GND )
+  (    5 +5V_SWITCHED )
+ )
+ ( /507294AF SM0805  C4 0.1uF {Lib=C}
+  (    1 +12V_SWITCHED )
+  (    2 GND )
+ )
+ ( /507294AE SM0805  C5 0.1uF {Lib=C}
+  (    1 +5V_SWITCHED )
+  (    2 GND )
+ )
+ ( /507294AC SM1210  C3 10uF {Lib=CP1}
+  (    1 +12V_SWITCHED )
+  (    2 GND )
+ )
+ ( /507294AB SM1210  C6 47uF {Lib=CP1}
+  (    1 +5V_SWITCHED )
+  (    2 GND )
+ )
+ ( /507292F0 D3  D1 1N4001 {Lib=DIODE}
+  (    1 +12V_SWITCHED )
+  (    2 N-000015 )
+ )
+ ( /507292EE SM1210  C2 4.7uF {Lib=CP1}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+ ( /507292ED SM0805  C1 0.1uF {Lib=C}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+ ( /507292EC SM0805  R1 10K {Lib=R}
+  (    1 /BASIC_OUT )
+  (    2 +5V_SWITCHED )
+ )
+ ( /507292EB SO8E  U2 MC34151P {Lib=MC34151P}
+  (    1 ? )
+  (    2 /BASIC_OUT )
+  (    3 GND )
+  (    4 ? )
+  (    5 ? )
+  (    6 N-000015 )
+  (    7 N-000021 )
+  (    8 ? )
+ )
+ ( /507292E7 SM0805  R2 ?? {Lib=R}
+  (    1 /VSS_OUT )
+  (    2 N-000021 )
+ )
+ ( /507292E6 SM0805  C7 ?? {Lib=C}
+  (    1 N-000021 )
+  (    2 GND )
+ )
+ ( /50729288 R3  R4 10k {Lib=R}
+  (    1 N-000018 )
+  (    2 /RPM0+ )
+ )
+ ( /50729287 R3  R6 10k {Lib=R}
+  (    1 N-000019 )
+  (    2 /RPM0- )
+ )
+ ( /50729286 SM0805  C11 1nF {Lib=C}
+  (    1 N-000018 )
+  (    2 N-000019 )
+ )
+ ( /50729285 SM0805  R7 10k {Lib=R}
+  (    1 +5V_SWITCHED )
+  (    2 N-000023 )
+ )
+ ( /50729284 SM0805  C8 0.1uF {Lib=C}
+  (    1 +5V_SWITCHED )
+  (    2 GND )
+ )
+ ( /50729283 uSOP  U4 MAX9924 {Lib=MAX9924}
+  (    1 N-000018 )
+  (    2 N-000019 )
+  (    3 ? )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 N-000023 )
+  (    8 ? )
+  (    9 GND )
+  (   10 +5V_SWITCHED )
+ )
+ ( /50729281 SM1210  C9 1uF {Lib=C}
+  (    1 +5V_SWITCHED )
+  (    2 GND )
+ )
+ ( /50729280 SM1210  C10 10nF {Lib=C}
+  (    1 +5V_SWITCHED )
+  (    2 GND )
+ )
+ ( /5072927C R3  R5 5k {Lib=R}
+  (    1 /RPM0+ )
+  (    2 /RPM0- )
+ )
+ ( /5072927A SM0805  R8 2.4K {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000023 )
+ )
+ ( /50729279 LED-0805  D3 LED {Lib=LED}
+  (    1 +5V_SWITCHED )
+  (    2 N-000013 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U2
+ tach
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ C8 2
+ C7 2
+ U2 3
+ C10 2
+ C9 2
+ U4 9
+ U4 6
+ U4 5
+ U3 2
+ U3 10
+ P1 1
+ R3 2
+ U3 7
+ U3 6
+ U3 3
+ C1 2
+ C2 2
+ C6 2
+ C3 2
+ C5 2
+ C4 2
+ U1 3
+ D2 1
+ U4 4
+Net 2 "+12V_SWITCHED" "+12V_SWITCHED"
+ D1 1
+ P1 2
+ C3 1
+ U1 1
+ C4 1
+Net 3 "+5V_SWITCHED" "+5V_SWITCHED"
+ C10 1
+ R1 2
+ D2 2
+ U1 5
+ C5 1
+ U3 5
+ U4 10
+ C6 1
+ C9 1
+ D3 1
+ R7 1
+ C8 1
+Net 9 "" ""
+ U3 14
+ U3 11
+Net 12 "/RPM0+" "RPM0+"
+ R4 2
+ P2 2
+ R5 1
+Net 13 "" ""
+ R8 1
+ D3 2
+Net 15 "" ""
+ U2 6
+ C2 1
+ C1 1
+ D1 2
+Net 16 "/VSS_OUT" "VSS_OUT"
+ R3 1
+ R2 1
+ P3 2
+Net 17 "/RPM0-" "RPM0-"
+ P2 1
+ R5 2
+ R6 2
+Net 18 "" ""
+ C11 1
+ U4 1
+ R4 1
+Net 19 "" ""
+ C11 2
+ R6 1
+ U4 2
+Net 20 "/BASIC_OUT" "BASIC_OUT"
+ U3 12
+ U2 2
+ R1 1
+Net 21 "" ""
+ C7 1
+ R2 2
+ U2 7
+Net 23 "" ""
+ R7 2
+ R8 2
+ U4 7
+ U3 1
+}
+#End
